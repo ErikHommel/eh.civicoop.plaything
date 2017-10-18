@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/plaything/page/plaything</path>
+    <page_callback>CRM_Plaything_Page_Plaything</page_callback>
+    <title>Plaything</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/plaything/form/plaything</path>
+    <page_callback>CRM_Plaything_Form_Plaything</page_callback>
+    <title>Plaything</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/plaything/form/playthingconfirm</path>
+    <page_callback>CRM_Plaything_Form_PlaythingConfirm</page_callback>
+    <title>PlaythingConfirm</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
